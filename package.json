@@ -1,0 +1,26 @@
+{
+  "name": "generate-entities",
+  "version": "0.0.1",
+  "description": "Generate RESTful resouce entities and all that goes along with them",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Larsen",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "chalk": "^2.3.2",
+    "cli-progress": "^1.7.0",
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0",
+    "liftoff": "^2.5.0",
+    "minimist": "^1.2.0",
+    "node-plop": "^0.13.0",
+    "ora": "^2.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "generate-entities": "./bin/index.js"
+  }
+}
