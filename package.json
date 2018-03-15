@@ -9,6 +9,7 @@
   "author": "Eric Larsen",
   "license": "MIT",
   "dependencies": {
+    "app-root-dir": "^1.0.2",
     "app-root-path": "^2.0.1",
     "chalk": "^2.3.2",
     "cli-progress": "^1.7.0",
